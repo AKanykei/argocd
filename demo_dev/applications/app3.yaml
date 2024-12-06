@@ -15,10 +15,10 @@ spec:
     targetRevision: HEAD
     helm:
       valueFiles:
-      - values_insta.yaml
+      - values_dev.yaml
       parameters:
       - name: "container.image"
-        value: AKanykei/instashop
+        value: akanykei/instashop
 
   project: default
   syncPolicy:
