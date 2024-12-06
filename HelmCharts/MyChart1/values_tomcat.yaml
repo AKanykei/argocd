@@ -4,5 +4,5 @@ container:
   image: tomcat
 
 
-replicaCount: 4
+replicaCount: 5
 
