@@ -1,7 +1,7 @@
 # Dev Override Values for my Helm Chart
 
 container:
-  image: akanykei/instashop
+  image: temson13/realsto
 
 
 replicaCount: 4
