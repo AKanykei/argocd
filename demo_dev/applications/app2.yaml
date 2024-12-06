@@ -15,10 +15,10 @@ spec:
     targetRevision: HEAD
     helm:
       valueFiles:
-      - values.yaml
+      - values_tomcat.yaml
       parameters:
       - name: "container.image"
-        value: temson13/k8php
+        value: tomcat
 
   project: default
   syncPolicy:
