@@ -2,6 +2,7 @@
 
 container:
   image: nginx
+  image: tomcat
 
 replicaCount: 4
 
