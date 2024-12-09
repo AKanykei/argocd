@@ -1,7 +1,7 @@
 # Dev Override Values for my Helm Chart
 
 container:
-  image: tomcat:latest
+  image: tomcat:9.0
 
 
 replicaCount: 4
